@@ -1,0 +1,22 @@
+# Lesson 2.7: THE UNDO COMMAND
+
+** Press `u`{normal} to undo the last commands, `U`{normal} to fix a whole line. **
+
+ 1. Move the cursor to the line below marked ✗ and place it on the first error.
+
+ 2. Type `x`{normal} to delete the first unwanted character.
+
+ 3. Now type `u`{normal} to undo the last command executed.
+
+ 4. This time fix all the errors on the line using the `x`{normal} command.
+
+ 5. Now type a capital `U`{normal} to return the line to its original state.
+
+ 6. Now type `u`{normal} a few times to undo the `U`{normal} and preceding commands.
+
+ 7. Now type `<C-r>`{normal} (Control + R) a few times to redo the commands.
+
+Fiix the errors oon thhis line and reeplace them witth undo.
+
+ 8. These are very useful commands. Now move on to the Lesson 2 Summary.
+

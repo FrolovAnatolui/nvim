@@ -1,0 +1,22 @@
+# Lesson 4.1: CURSOR LOCATION AND FILE STATUS
+
+** Type `<C-g>`{normal} to show your location in a file and the file status.
+ Type `G`{normal} to move to a line in the file. **
+
+NOTE: Read the entire lesson before executing any of these steps!!
+
+ 1. Hold down the `<Ctrl>`{normal} key and press `g`{normal}. We call this `<C-g>`{normal}.
+    A message will appear at the bottom of the page with the filename and
+    the position in the file. Remember the line number for Step 3.
+
+NOTE: You may see the cursor position in the lower right corner of the
+      screen. This happens when the ['ruler']('ruler') option is set.
+
+ 2. Press [G](G) to move you to the bottom of the file.
+    Type [gg](gg) to move you to the start of the file.
+
+ 3. Type the number of the line you were on and then `G`{normal}. This will
+    return you to the line you were on when you first pressed `<C-g>`{normal}.
+
+ 4. If you feel confident to do this, execute steps 1 through 3.
+

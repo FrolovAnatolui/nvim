@@ -1,0 +1,25 @@
+# Lesson 1.2: EXITING NEOVIM
+
+!! NOTE: Before executing any of the steps below, read the entire lesson !!
+
+ 1. Press the <Esc> key (to make sure you are in Normal mode).
+
+ 2. Type:
+
+    `:q!`{vim} `<Enter>`{normal}.
+
+    This quits the editor, DISCARDING any changes you have made.
+
+ 3. Open Neovim and get back here by executing the command that got you into
+    this tutorial. That might be:
+
+    :Tutor <Enter>
+
+ 4. If you have these steps memorized and are confident, execute steps
+    1 through 3 to exit and re-enter the editor.
+
+NOTE: [:q!](:q) <Enter> discards any changes you made. In a few lessons you
+      will learn how to save the changes to a file.
+
+ 5. Move the cursor down to Lesson 1.3.
+

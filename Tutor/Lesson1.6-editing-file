@@ -1,0 +1,29 @@
+# Lesson 1.6: EDITING A FILE
+
+** Use `:wq`{vim} to write a file and quit. **
+
+!! NOTE: Before executing any of the steps below, read the entire lesson !!
+
+ 1. Exit this tutorial as you did in Lesson 1.2: `:q!`{vim}
+    Or, if you have access to another terminal, do the following there.
+
+ 2. At the shell prompt type this command:
+~~~ sh
+    $ nvim tutor
+~~~
+    'nvim' is the command to start the Nvim editor, 'tutor' is the name of
+    the file you wish to edit. Use a file that may be changed.
+
+ 3. Insert and delete text as you learned in the previous lessons.
+
+ 4. Save the file with changes and exit Neovim with:
+~~~ cmd
+    :wq
+~~~
+    Note you'll need to press `<Enter>` to execute the command.
+
+ 5. If you have quit this tutorial in step 1, restart and move down
+    to the following summary.
+
+ 6. After reading and understanding the above steps: do them.
+

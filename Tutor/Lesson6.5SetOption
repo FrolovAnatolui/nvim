@@ -1,0 +1,37 @@
+# Lesson 6.5: SET OPTION
+
+** Set an option so search and substitute commands ignore case. **
+
+There are many settings in Neovim that you can configure to suit your needs.
+
+ 1. Search for 'ignore' by entering: `/ignore`
+    Repeat several times by pressing `n`{normal}.
+
+ 2. Set the 'ic' (Ignore case) option by entering:
+~~~ cmd
+        :set ic
+~~~
+ 3. Now search for 'ignore' again by pressing `n`{normal}.
+    Notice that Ignore and IGNORE are now also found.
+
+ 4. Set the 'hlsearch' and 'incsearch' options:
+~~~ cmd
+        :set hls is
+~~~
+ 5. Now type the search command again and see what happens: /ignore <Enter>
+
+ 6. To disable ignoring case enter:
+~~~ cmd
+        :set noic
+~~~
+ 7. To invert the value of a setting, prepend it with "inv":
+~~~ cmd
+        :set invic
+~~~
+NOTE: To remove the highlighting of matches enter:
+~~~ cmd
+        :nohlsearch
+~~~
+NOTE: If you want to ignore case for just one search command, use [\c](/\c)
+      in the phrase: /ignore\c <Enter>
+

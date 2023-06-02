@@ -1,0 +1,44 @@
+# Lesson 4.4: THE SUBSTITUTE COMMAND
+
+** Type `:s/old/new/g` to substitute "new" for "old". **
+
+ 1. Move the cursor to the line below marked ✗.
+
+ 2. Type
+~~~ cmd
+        :s/thee/the/
+~~~
+    NOTE: the [:s](:s) command only changed the first match of "thee" in the line.
+
+ 3. Now type
+~~~ cmd
+        :s/thee/the/g
+~~~
+    Adding the g [flag](:s_flags) means to substitute globally in the line,
+    change all occurrences of "thee" in the line.
+
+Usually thee best time to see thee flowers is in thee spring.
+
+ 4. To change every occurrence of a character string between two lines, type
+~~~ cmd
+        :#,#s/old/new/g
+~~~
+    where # are the line numbers of the range of lines where the
+    substitution is to be done (i.e., `1,3` means from line 1 to line 3, inclusive).
+
+    Type
+~~~ cmd
+        :%s/old/new/g
+~~~
+    to change every occurrence in the whole file.
+
+    Type
+~~~ cmd
+        :%s/old/new/gc
+~~~
+    to find every occurrence in the whole file, with a prompt whether to
+    substitute or not.
+
+NOTE: You can also select the lines you want to substitute first using visual-mode.
+      This will be explained more in a future lesson.
+

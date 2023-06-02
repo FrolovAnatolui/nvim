@@ -1,0 +1,25 @@
+# Lesson 5.2: MORE ON WRITING FILES
+
+** To save the changes made to the text, type `:w`{vim} FILENAME. **
+
+ 1. Type `:!ls`{vim} to get a listing of your directory.
+    You already know you must hit `<Enter>`{normal} after this.
+
+ 2. Choose a filename that does not exist yet, such as TEST.
+
+ 3. Now type:
+~~~ cmd
+        :w TEST
+~~~
+   (where TEST is the filename you chose.)
+
+ 4. This saves the current file under the name TEST.
+    To verify this, type `:!ls`{vim} again to see your directory.
+
+NOTE: If you were to exit Neovim and start it again with `nvim TEST`, the file
+      would be an exact copy of the tutorial when you saved it.
+
+ 5. Now remove the file by typing:
+~~~ cmd
+        :!rm TEST
+~~~

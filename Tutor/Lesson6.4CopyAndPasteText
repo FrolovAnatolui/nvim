@@ -1,0 +1,28 @@
+# Lesson 6.4: COPY AND PASTE TEXT
+
+** Use the `y`{normal} operator to copy text and `p`{normal} to put it. **
+
+ 1. Go to the line marked with ✓ below and place the cursor after "a)".
+
+ 2. Start Visual mode with `v`{normal} and move the cursor to just before
+    "first".
+
+ 3. Type `y`{normal} to [yank](yank) (copy) the highlighted text.
+
+ 4. Move the cursor to the end of the next line: `j$`{normal}
+
+ 5. Type `p`{normal} to [put](put) (paste) the text.
+
+ 6. Press `a`{normal} and then type "second". Press `<Esc>`{normal} to leave
+    Insert mode.
+
+ 7. Use Visual mode to select "item.", yank it with `y`{normal}, move to the
+    end of the next line with `j$`{normal} and put the text there with `p`{normal}
+
+a) This is the first item.
+b)
+
+NOTE: you can use `y`{normal} as an operator: `yw`{normal} yanks one word.
+
+NOTE: you can use `P`{normal} to put before the cursor, rather than after.
+

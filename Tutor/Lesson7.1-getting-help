@@ -1,0 +1,23 @@
+# Lesson 7.1: GETTING HELP
+
+** Use the online help system. **
+
+Neovim has a comprehensive online help system.
+
+To get started, try one of these three:
+
+  - press the `<F1>`{normal} key (if you have one)
+  - type `:help`{vim}
+
+Read the text in the help window to find out how the help works.
+Type `<C-w><C-w>`{normal} to jump from one window to another.
+Type `:q`{vim} to close the help window.
+
+You can find help on just about any subject, by giving an argument to the
+":help" command. Try these (don't forget to press <Enter>):
+~~~ cmd
+    :help w
+    :help c_CTRL-D
+    :help insert-index
+    :help user-manual
+~~~

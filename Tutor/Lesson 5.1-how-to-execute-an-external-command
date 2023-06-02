@@ -1,0 +1,19 @@
+# Lesson 5.1: HOW TO EXECUTE AN EXTERNAL COMMAND
+
+** Type `:!`{vim} followed by an external command to execute that command. **
+
+ 1. Type the familiar command `:`{normal} to set the cursor at the bottom of
+    the screen. This allows you to enter a command-line command.
+
+ 2. Now type the [!](!cmd) (exclamation point) character. This allows you to
+    execute any external shell command.
+
+ 3. As an example type "ls" following the "!" and then hit `<Enter>`{normal}.
+    This will show you a listing of your directory, just as if you were
+    at the shell prompt.
+
+NOTE: It is possible to execute any external command this way, and you
+      can include arguments.
+
+NOTE: All `:`{vim} commands are executed when you press `<Enter>`{normal}.
+

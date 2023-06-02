@@ -1,0 +1,19 @@
+# Lesson 7.2: CREATE A STARTUP SCRIPT
+
+** Enable Neovim features. **
+
+Neovim is a very configurable editor. You can customise it any way you like.
+To start using more features create an "init.vim" file.
+
+ 1. Start editing the "init.vim" file.
+
+    `:call mkdir(stdpath('config'),'p')`{vim}
+    `:exe 'edit' stdpath('config').'/init.vim'`{vim}
+
+ 2. Write the file with:
+
+    `:w`{vim}
+
+  You can add all your preferred settings to this "init.vim" file.
+  For more information type `:help init.vim`{vim}.
+

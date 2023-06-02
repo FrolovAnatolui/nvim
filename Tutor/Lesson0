@@ -1,0 +1,29 @@
+# Lesson 0
+
+NOTE: The commands in the lessons will modify the text, but those changes
+won't be saved. Don't worry about messing things up; just remember that
+pressing [<Esc>](<Esc>) and then [u](u) will undo the latest change.
+
+This tutorial is interactive, and there are a few things you should know.
+- Type [<Enter>](<Enter>) on links [like this](holy-grail    ) to open the linked help section.
+- Or simply type [K](K) on any word to find its documentation!
+- You can close this help window with `:q`{vim}
+- Sometimes you will be required to modify text like
+
+    this here
+
+Once you have done the changes correctly, the ✗ sign at the left will change
+to ✓. I imagine you can already see how neat Neovim can be.
+Other times, you'll be prompted to run a command (I'll explain this later):
+~~~ cmd
+    :help <Enter>
+~~~
+or press a sequence of keys
+~~~ normal
+    <Esc>0f<Space>d3wP$P
+~~~
+Text within <'s and >'s (like `<Enter>`{normal}) describes a key to press
+instead of text to type.
+
+Now, move to the next lesson (use the `j`{normal} key to scroll down).
+
